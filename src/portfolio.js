@@ -7,8 +7,7 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Diego Plaza',
   role: 'Software Engineer and Future Data Analyst',
-  description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+  description: 'Engineer with 10 years of experience.',
   resume: 'https://bit.ly/3uYiW6E',
   social: {
     linkedin: 'https://bit.ly/3xfKyY2',
@@ -37,6 +36,14 @@ const projects = [
   },
   {
     name: 'Project 3',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['SASS', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Project 4',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
