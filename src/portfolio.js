@@ -6,8 +6,8 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Diego Plaza',
-  role: 'Software Engineer and Future Data Analyst',
-  description: 'Engineer with 10 years of experience.',
+  role: 'Software Engineer and Data Analyst',
+  description: "Find out what I'm currently working on.",
   resume: 'https://bit.ly/3uYiW6E',
   social: {
     linkedin: 'https://bit.ly/3xfKyY2',
@@ -16,69 +16,55 @@ const about = {
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Project 1: Automation & Control Prototype',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      "A device that automates and controls an insect's rearing enclosure",
+    stack: ['Raspberry Pi', 'Raspbian', 'Python', 'MongoDB'],
+    sourceCode: 'https://bit.ly/3FlXP32',
+    // livePreview: '',
   },
   {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    name: 'Project 2: Simple Phone Catalog using React',
+    description: 'A simple MERN application for a mockup phone store.',
+    stack: ['JavaScript', 'React', 'Express', 'MongoDB'],
+    sourceCode: 'https://bit.ly/37kBTc2',
+    // livePreview: '',
   },
   {
-    name: 'Project 3',
+    name: 'Project 3: Web Scraping Project',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 4',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 5',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Dynamic Web Scraping Project using Selenium for competition analysis',
+    stack: [
+      'Python',
+      'Selenium',
+      'BeautifulSoup',
+      'Pandas',
+      'Seaborn',
+      'Streamlit',
+    ],
+    sourceCode: 'https://bit.ly/3vMTh2G',
+    // livePreview: '',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
+  'Python',
   'JavaScript',
   'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
+  'React & ReactNative',
+  'HTML',
+  'CSS',
   'Material UI',
+  'Redux',
   'Git',
   'CI/CD',
-  'Jest',
-  'Enzyme',
+  'SQL & NoSQL',
+  'Firebase',
+  'Amplify',
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'dplaza@gmx.com',
 }
 
