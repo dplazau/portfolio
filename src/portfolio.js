@@ -1,12 +1,12 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  title: 'Professional Portfolio.',
+  title: 'Professional Portfolio. (In progress...)',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Diego Plaza',
-  role: 'Software Engineer and Data Analyst',
+  role: 'Software Engineer and Data Analyst Candidate',
   description: "Find out what I'm currently working on.",
   resume: 'https://bit.ly/3uYiW6E',
   social: {
